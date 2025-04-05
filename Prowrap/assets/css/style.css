@@ -1,0 +1,270 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* top-navbr-section start */
+
+.list {
+    gap: 15px;
+    border-right: 2px solid #fff;
+    padding: 0px 30px;
+}
+
+.list:nth-child(4) {
+    border: 0;
+    padding-right: 0px;
+}
+
+.list:nth-child(1) {
+    padding-left: 0px;
+}
+
+.image {
+    padding: 16px 0px;
+}
+
+/* top-navbr-section end */
+
+/* navbar-menu section start */
+
+.navigation-bar-section {
+    border-bottom: 1px solid #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px 20px;
+    border-right: 2px solid;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:nth-of-type(8) .nav-link {
+    border-right: 0;
+    padding-right: 40px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-item:nth-of-type(1) .nav-link {
+    padding-left: 0px;
+}
+
+.navbar {
+    padding: 36px 0px;
+}
+
+.btn {
+    border: none;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    position: absolute;
+    bottom: -45px;
+    right: 10px;
+    width: 200px;
+    display: none;
+}
+
+.check:checked+.search-input {
+    display: block;
+}
+
+/* navbar-menu section end */
+
+/* banner section start */
+
+.banner-section {
+    background-image: url("/assets/image/Rectangle\ 7.png");
+    background-image: linear-gradient(to bottom, #FFBF431A, #E01E2E0D);
+}
+
+.banner {
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 110px;
+    width: 100%;
+}
+
+.banner .main-heading {
+    font-size: 68.8px;
+    font-weight: 700;
+    font-family: "inter";
+}
+
+span {
+    display: flex;
+    justify-content: end;
+}
+
+
+.banner .banner-btn {
+    background-color: #E01E2E;
+    border-radius: 50px;
+    padding: 16px 32px;
+    color: #fff;
+    font-size: 19.2px;
+    font-weight: 400;
+    top: 10px;
+    right: 143px;
+
+}
+
+.banner .describe {
+    font-size: 19.2px;
+    font-weight: 500;
+    max-width: 550px;
+    line-height: 32px;
+    margin-top: -65px;
+}
+
+.banner-image {
+    padding-top: 94px;
+    padding-bottom: 40px;
+}
+
+.main-banner .link {
+    background-color: #E01E2E;
+    color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    height: 90px;
+    width: 90px;
+    right: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* banner section end */
+
+/* service section start */
+
+.service-text .main-heading {
+    font-size: 47.8px;
+    font-weight: 700;
+}
+
+.service-text {
+    gap: 200px;
+    padding: 100px 0px 64px 0px;
+}
+
+.page-row {
+    row-gap: 20px;
+}
+
+.pages {
+    background-color: #F2F2F2;
+    padding: 30px;
+    height: 100%;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-page-text {
+    margin-bottom: 242px;
+    padding-top: 16px;
+}
+
+.arrow {
+    height: 194px;
+    width: 194px;
+    background-color: #000;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -30px;
+    right: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.arrow:hover {
+    background-color: #E01E2E;
+}
+
+/* service section end */
+
+/* feedback section start */
+
+
+.feedback-section {
+    margin: 120px 0px;
+    padding: 120px 0px;
+    background-color: #FFBF431A;
+    font-family: "inter";
+
+}
+
+.feedback .main-heading {
+    padding-bottom: 48px;
+    font-weight: 700;
+    font-size: 47.7px;
+    text-align: center;
+}
+
+.feedback-page {
+    background-color: #FFFFFF;
+    padding: 48px 30px;
+    height: 100%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.feedback-page .star {
+    padding-bottom: 24px;
+}
+
+.feedback-img {
+    gap: 24px;
+    padding-top: 32px;
+}
+
+.feedback-img h4 {
+    font-size: 18px;
+    line-height: 163%;
+}
+
+/* feedback section end */
+
+/* discount section start */
+
